@@ -13,27 +13,28 @@ The project is a coursework on image processing with Python. It includes various
 1. Make sure you have **Python 3.x** installed. You can download it from [python.org](https://www.python.org/).
 2. Install the required libraries:
    
-   **OpenCV (opencv-python)**  
-   OpenCV is a powerful library for computer vision and image processing. It provides functions for:
-   - Reading and writing images and videos
-   - Image filtering and blurring (e.g., Gaussian Blur)
-   - Morphological operations (erosion, dilation)
-   - Edge detection (Canny)
-   - Contour detection and analysis
-   - Image segmentation (watershed, thresholding)
-   - 
-     **NumPy**
-   NumPy is a fundamental library for numerical computing in Python. It provides:
-   - Efficient multi-dimensional array handling
-   - Mathematical operations on arrays
-   - Image manipulation in combination with OpenCV
+**OpenCV (opencv-python)**  
+OpenCV is a powerful library for computer vision and image processing. It provides functions for:
+- Reading and writing images and videos
+- Image filtering and blurring (e.g., Gaussian Blur)
+- Morphological operations (erosion, dilation)
+- Edge detection (Canny)
+- Contour detection and analysis
+- Image segmentation (watershed, thresholding)
+
+**NumPy**  
+NumPy is a fundamental library for numerical computing in Python. It provides:
+- Efficient multi-dimensional array handling
+- Mathematical operations on arrays
+- Image manipulation in combination with OpenCV
+
+**Matplotlib**  
+Matplotlib is a plotting library used for data visualization. In this project, it is used to:
+- Display images in a notebook or window
+- Compare original and processed images side by side
+- Visualize results such as edge detection or segmentation masks
      
-     **Matplotlib**  
-   Matplotlib is a plotting library used for data visualization. In this project, it is used to:
-   - Display images in a notebook or window
-   - Compare original and processed images side by side
-   - Visualize results such as edge detection or segmentation masks
-4. Install the libraries using `pip`:
+3. Install the libraries using `pip`:
 
 ```bash
 pip install numpy
